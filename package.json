@@ -1,5 +1,6 @@
 {
   "name": "learn-tape",
+  "version": "2.0.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/dwyl/learn-tape.git"
@@ -18,8 +19,10 @@
     "coverage": "istanbul cover tape ./test/*.test.js && istanbul check-coverage --statements 100 --functions 100 --lines 100 --branches 100"
   },
   "pre-commit": [
-    "jshint",
     "coverage"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "keywords": [
+    "tape", "tap", "tutorial", "how to"
+  ]
 }
